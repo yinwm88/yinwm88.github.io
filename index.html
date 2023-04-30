@@ -1,0 +1,175 @@
+<!--El navegador siempre va a buscar el index.html-->
+<!--La norma para identacion es dos espacios-->   
+                            
+    <!--TAGS-->
+    <!--DOCTYPE le dice al navegador que este archivo es tipo html-->
+    <!DOCTYPE html>
+
+    <!-- "<html> </html>" etiqueta padre/madre es donde vivira todo nuestro proyecto-->
+    <!--lang : lenguaje "es"=español-->
+    <html lang="es">
+        
+    <!--Info para el navegador y extras-->
+        <head>
+            <!--Agrega titulo a la página-->
+            <title> EartH without art is EH! </title>
+            <!--Conectar cosas, css-html-->
+            <link rel="stylesheet" href="style.css">
+            <!--Agregar fuente google-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Staatliches&display=swap" rel="stylesheet">
+            <!--------------------------------------------->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Roboto+Mono:wght@100&family=Staatliches&display=swap" rel="stylesheet">
+        </head>
+        <!--Dentro del body vamos a poner todo lo que el usuarix vera. -->
+        <body>
+            <!--División de prueba-->
+            <div>
+                <h1>Hola Mundo!</h1>
+                <h2>EH!</h2>
+                <h3>EH!</h3>    
+                <h4>EH!</h4>
+                <h5>EH!</h5>
+                
+                <!--elemento de parrafo, Lorem:genera ese parrafo-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolore tempora ullam 
+                   id numquam! Voluptatum corporis assumenda inventore, quaerat, doloremque perferendis
+                   fugiat maiores nesciunt dolor exercitationem hic asperiores, quo molestiae?</p>
+            </div>      
+            <!--MAIN(tambien podria llamarse div y haria exactamnte lo mismo)-->
+            <main>
+                <!--este h1 se llama titulo web(es una clase)-->
+                <h1 class="titulo-web">WEB GATUNA</h1>
+                <h2>SELFIES</h2>
+                <!--Self-closing tags, no necesitan ser cerradas expl:<img>-->
+                <!--Atributos son src:source (de donde viene la imagen) y alt-->
+
+                <img class="compas" src="https://sadanduseless.b-cdn.net/wp-content/uploads/2020/05/cats-taking-selfies15.jpg" alt="">
+
+                <img class="gato-estilo" src="https://i.pinimg.com/originals/00/8f/e1/008fe15a8624461f41f0f1989c68f2d1.jpg" alt="">
+               
+                <!--<img src="/practicaHTML/imagenes/catss.png" alt="">
+               <img src="/practicaHTML/imagenes/catl.png" alt="">-->
+        
+                    <!--LISTAS-->
+                <h2>Lista de Gatos</h2>
+                <!--Diision de otros elementos-->
+                <div>
+                    <p><em>Lista hecha por Yin</em></p>
+                    
+                    <p><strong>Cosas que los gatos aman<strong></p>
+
+                    <!--LISTA NO ORDENADA: unordered list-->
+                    <ul>
+                        <!--Items de la lista-->
+                        <li>Atún</li>
+                        <li>Plantas</li>
+                        <li>Macetas</li>
+                    </ul>
+
+                    <img class="atun"src="https://petsoid.com/wp-content/uploads/2019/12/orange-cat-eating-fish.jpg">
+
+                    <img src ="https://piximus.net/media2/56211/cat-plants-4.jpg">
+                    <!--para dar un break(un "\n")-->
+                    <br>
+                    <img src="https://cdn-icons-png.flaticon.com/512/628/628283.png">
+
+                    <p><strong>Cosas que los gatos odian<strong></p>
+                    
+                        <!--lISTA ORDENADA: ordered list-->
+                        <ol>
+                             <!--Items de la lista-->
+                             <li>Playa</li>
+                             <li>citricos</li>
+                        <!--li*(numero de items que quieres) ej: li*4-->
+                            <li>truenos</li>
+                            <li>agua</li>
+                            <li>lavanda</li>
+                            <li>pepinos</li>
+                        </ol>
+
+                        <img class="malaVibra"src="https://imgb.srgcdn.com/VhlqGc55OdDf5BPYEV0G.jpg">
+
+                       
+
+                </div>        
+
+                <!--ENLACES INTERNOS, href: referencia a donde queremos ir, <a>permite crear hipervinculos-->
+                <a class="link0"href="#parrafo-1">Párrafo 1</a>
+                <a class="link0"href="#parrafo-2">Párrafo 2</a>
+                <a class="link0"href="#parrafo-3">Párrafo 3</a>
+
+                <h3 class="p" id="parrafo-1">Párrafo 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illo hic reprehenderit assumenda eum fuga, suscipit est quod commodi quia, quasi incidunt facere aliquam error vitae officiis. Obcaecati, cumque repudiandae!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi earum aliquid ea aperiam, similique quae consequuntur deleniti rem ipsum, vero sed labore, harum totam sapiente officiis? Iusto, iure culpa.</p>
+
+                <h3 class="p" id="parrafo-2">Párrafo 2</h3>
+                <p>Tienen una flexibilidad y agilidad impresionante, pueden saltar desde más de 3 metros de altura. Los gatos pueden rotar sus orejas 180 grados.</p>
+                <p>Los gatos pueden pasar hasta 14 horas dormidos. Debido a su naturaleza nocturna, los gatos suelen ser mucho más hiperactivos en la tarde.</p>
+
+                <h3 class="p" id="parrafo-3">Párrafo 3<h3/>
+                <p>Puedes beneficiarte de un sistema inmunológico más fuerte y recuperarte de las enfermedades antes que las personas que no tienen animales de compañía.</p>
+                <p>Se ha comprobado que tener un gato reduce el estrés. Normalmente los dueños de gatos tienen una tensión arterial más baja que las personas sin mascotas</p>
+
+                <!--ENLACES EXTERNOS-->
+
+                <p>En este <a class="link1" href="https://www.elmundodelgato.com/">link</a></p>
+                <!--ahora con una imagen en de vez de un texto-->
+                <a  href="https://www.elmundodelgato.com/"><img class="pompis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wP0as8FArgr0GigQN66gNsQgYY1dbPPlfg&usqp=CAU"></a>
+                <p class="presiona"">o presiona al gato</p>
+
+                <!-- FOMULARIOS CON RADIO (elegir una opcion o la otra) -->
+               <h1 class="t2">FORMULARIO</h1>
+
+                <p class="q">¿Tú  gato es cachorro o adulto?</p>
+                    <!--Etiqueta que encapsula el formulario-->
+                    <!--opciond e CACHORRO-->
+                    <label for="cachorro">
+                        <input id="cachorro" type="radio"
+                        value="cachorro" name="edad" > Cachorro🥺
+                    </label>
+
+                    <!--opciond de ADULTO-->
+                    <label for="adulto">
+                    <!--name correalaciona opciones-->
+                        <input id="adulto" type="radio"
+                        value="adulto" name="edad" >Adulto🥸
+                    </label>
+
+                <!--FORMULARIO DE CHECKBOX-->
+                <p class="q">¿Qué tipo de gato es el tuyo?</p>
+
+                    <label class:"q1" for="normal">
+                        <input  id="normal" type="checkbox"
+                        value="normal" name="tipo">Normal 🐱
+                    </label>
+
+                    <label for="loco">
+                        <input id="loco" type="checkbox"
+                        value="loco" name="tipo">Loco 👍
+                    </label>
+
+                    <label for="comelon">
+                        <input id="comelon" type="checkbox"
+                        value="comelon" name="tipo">Comelon 🍤
+                    </label>
+
+                    <label for="enojoon">
+                        <input id="enojon" type="checkbox"
+                        value="enojon" name="tipo">Enojon 😠
+                    </label>
+
+            </main>    
+            <!--PIE DE PAGINA:info extra-->
+            <footer>
+                <p class="f">Página creada por Len en 
+                    <a class="link3" href="https://tecnolochicas.mx/">Tecnolochicas Pro.</a></p>
+
+            </footer>
+        </body>
+    </html>
+        <!--div es el tag que da divissiones para organizar la pagina-->
+        <!--A las tags que tienen contenido son tag padres.-->

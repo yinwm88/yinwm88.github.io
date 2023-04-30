@@ -1,0 +1,98 @@
+/**quiero que le apliques esse estilo al body*/
+body{
+    background-color:darkslategrey;
+    color:aquamarine;
+    /**font-family:monospace;*/
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+
+    color:lightsalmon
+}
+
+h1{
+    color:lawngreen;
+    font-size:28px;
+}
+
+/** Para agregar una clase ponemos ( . ) antes del nombre*/
+
+.titulo-web{
+    text-align: center;
+    color:tomato;
+    font-size:65px;
+    font-family: 'Rajdhani', sans-serif;
+    
+    
+}
+.p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Staatliches', cursive;
+
+}
+
+/**formato para todas las imagenes*/
+img{
+    height:280px ;
+}
+/**Formato especifico para cada imagen*/
+.compas{
+    width:420px
+}
+
+.atun{
+    width:400px;
+}
+
+.gato-estilo{
+    width:240px;
+}
+
+.malaVibra{
+    width:460px;
+    height:300px
+}
+
+.pompis{
+    width:480px;
+    height: 320px;
+}
+/*-----------------------------------------------**/
+
+.link0{
+    color:greenyellow
+}
+.link1{
+    color:greenyellow 
+}
+.link3{
+    font-family: monospace;
+    font-size:10px;
+    color:greenyellow
+}
+.presiona{
+    color: greenyellow;
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+}
+
+.t2{
+    color:tomato;
+    font-size: 35px;
+    text-align: center;
+    font-family:monospace;    
+}
+
+.q{
+    
+    font-size: 20px;
+    font-family: monospace; 
+}
+
+.f{
+    font-size: 10px;
+}
+
